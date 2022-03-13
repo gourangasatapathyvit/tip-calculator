@@ -14,6 +14,11 @@
         <h1 class="tip_header">Tip Dukan</h1>
 
         <div class="mid_box">
+            <div class="right_box">
+                <img src="https://image.shutterstock.com/image-photo/elevated-view-bill-banknote-on-260nw-757910200.jpg" alt="">
+
+            </div>
+
             <div class="left_box">
                 <h3 class="sub_heading">Your Amount</h3>
                 <input type="number" min="0" max="50000" name="Your amount" id="amount" placeholder="enter amount">
@@ -21,10 +26,11 @@
 
                 <div class="tip_section">
                     <span class="estimate_tip">estimated tip</span>
-                    <button>Reset</button>
+                    
                     <div class="entry_section">
-                        <p class="tip_amount">your tip amount is:0</p>
-                        <button>Pay Now</button>
+                        <p class="tip_amount">your tip amount is: <span id="tip_digit">0</span></p>
+                        <button class="calculate">Calculate</button>
+                        <button class="reset">Reset</button>
                     </div>
 
 
@@ -32,10 +38,6 @@
 
             </div>
 
-            <div class="right_box">
-                <img src="profile.png" alt="">
-
-            </div>
 
         </div>
 
@@ -43,6 +45,8 @@
         <p class="visit" id="visit"></p>
 
     </div>
+
+    <script src="index.js"></script>
 
 
 </body>

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 body {
@@ -12,8 +13,8 @@ body {
 }
 
 .container {
-  background-color: aqua;
-  /* width: 70%; */
+  background-color:darkcyan;
+  width: 50%;
   height: 50%;
 }
 
@@ -21,9 +22,9 @@ body {
   text-align: center;
 }
 .mid_box {
-  background-color: burlywood;
+  background-color: black;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 8px;
   height: 100%;
 }
@@ -41,13 +42,14 @@ body {
 
 #amount {
   height: 20px;
-  width: 100%;
+  width: 30%;
   outline: none;
   border-top: none;
   border-left: none;
   border-right: none;
   margin: 4px 0;
   margin-bottom: 12px;
+  background: transparent;
 }
 
 .entry_section,
@@ -66,4 +68,5 @@ body {
 .right_box > img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
