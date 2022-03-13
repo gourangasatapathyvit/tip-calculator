@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  background-color:darkcyan;
+  background-color: darkcyan;
   width: 50%;
   height: 50%;
 }
@@ -55,6 +55,10 @@ body {
 .entry_section,
 .entry_section > button {
   margin-top: 12px;
+  padding: 8px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .entry_section > p {
